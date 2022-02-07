@@ -21,6 +21,8 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'az0s2rq@v8j=olh*72mhvfa2yt&3c+g0ui9@qhvtrsb7&%pidx'
 
